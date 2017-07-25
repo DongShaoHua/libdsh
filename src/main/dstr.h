@@ -12,8 +12,8 @@
 typedef char * dstr;
 
 typedef struct dstrst {
-    long length;
-    long free;
+    size_t length;
+    size_t free;
     char buffer[];
 } dstrst;
 
